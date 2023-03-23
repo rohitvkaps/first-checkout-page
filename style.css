@@ -1,0 +1,74 @@
+.body {
+  background-color: #899199;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+.header a.active {
+  color: brown;
+}
+.header a:hover {
+  color: brown;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0px 0px 0px;
+}
+.main-container .billing-details {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.main-container .order-details {
+  width: 30%;
+  border-radius: 5px;
+  border: 1px solid;
+}
+.field-group {
+  width: 100%;
+}
+.field-group .field {
+  display: inline-block;
+  width: 48%;
+}
+form.shipping,
+form.payment {
+  padding: 10px;
+}
+.field {
+  padding: 10px 1px 0px 0px;
+}
+.field label {
+  display: block;
+}
+
+.field input {
+  height: 20px;
+  width: 100%;
+  border: skyblue 1px snow;
+  margin-top: 5px;
+}
+
+.main-container .payment-container {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid;
+}
+/* payment */
+.payment-option {
+  width: 30%;
+  display: block;
+}
